@@ -1,0 +1,32 @@
+{
+  "name": "whichstate",
+  "version": "0.1.0-alpha.01",
+  "license": "MIT",
+  "main": "src/whichState.js",
+  "description": "Simple js package to find out which US state a lat, lon point is in",
+  "author": "Ryan Velazquez <ryan.velazquez@azimuth1.com>",
+  "scripts": {
+    "lint": "eslint src/*.js",
+    "format": "prettier 'src/*.js' --write",
+    "test": "./node_modules/.bin/jest --coverage",
+    "precommit": "pretty-quick --staged",
+    "performanceTest": "node ./test/performanceTest/testRandomPoints.ts",
+    "compile": "tsc src/*.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/geojson": "^7946.0.7",
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.4",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "eslint": "^7.0.0",
+    "husky": "^4",
+    "jest": "^26",
+    "prettier": "1.13.3",
+    "pretty-quick": "^1.6.0",
+    "rewire": "^5.0.0",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.3"
+  }
+}
