@@ -1,8 +1,9 @@
 export {};
 const insideStateFeature = require("./insideStateFeature");
 const statesGeoJson = require("./data/gz_2010_us_040_00_5m.json");
+const stateAbbreviations = require("./data/stateAbbreviations.json");
 
-function getState(point: [number, number]) {
+function getName(point: [number, number]) {
   let stateFound: boolean = false;
   let stateName: string;
 
@@ -20,6 +21,16 @@ function getState(point: [number, number]) {
   }
 }
 
+function getInitials(point: [number, number]) {
+  const stateName = getName(point);
+  if (stateName == "not in a state") {
+    return "not in a state";
+  }
+  const stateInitials = stateAbbreviations[stateName];
+  return stateInitials;
+}
+
 module.exports = {
-  getState: getState,
+  getName: getName,
+  getInitials: getInitials,
 };
