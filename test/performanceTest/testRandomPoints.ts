@@ -1,4 +1,3 @@
-export {};
 const whichState = require("./../../src/whichState");
 
 function generateRandomPoint() {

@@ -1,6 +1,6 @@
 {
   "name": "whichstate",
-  "version": "0.1.0-alpha.01",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "src/whichState.js",
   "description": "Simple js package to find out which US state a lat, lon point is in",
