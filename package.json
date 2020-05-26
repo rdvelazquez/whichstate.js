@@ -1,8 +1,13 @@
 {
   "name": "whichstate",
-  "version": "0.1.0",
+  "version": "0.1.2-beta3",
   "license": "MIT",
   "main": "src/whichState.js",
+  "files": [
+    "src/*.js",
+    "src/*.ts",
+    "src/data/*.json"
+  ],
   "description": "Simple js package to find out which US state a lat, lon point is in",
   "author": "Ryan Velazquez <ryan.velazquez@azimuth1.com>",
   "scripts": {
