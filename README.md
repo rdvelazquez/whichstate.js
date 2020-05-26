@@ -1,5 +1,6 @@
-[![GitHub Actions Status](https://github.com/rdvelazquez/whickstate.js/workflows/whichstateCI/badge.svg)]
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rdvelazquez/whichstate.js/whichstateCI)
 [![npm version](https://badge.fury.io/js/whichstate.svg)](https://badge.fury.io/js/whichstate) 
+![npm bundle size](https://img.shields.io/bundlephobia/min/whichstate)
 
 # whichState.js
 
