@@ -1,3 +1,6 @@
+[![GitHub Actions Status](https://github.com/rdvelazquez/whickstate.js/workflows/whichstateCI/badge.svg)]
+[![npm version](https://badge.fury.io/js/whichstate.svg)](https://badge.fury.io/js/whichstate) 
+
 # whichState.js
 
 ## Find out which US state a point (longitude, latitude) is in.

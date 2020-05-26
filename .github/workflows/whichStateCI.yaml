@@ -1,4 +1,4 @@
-name: whichstate CI
+name: whichstateCI
 
 on:
   push:
